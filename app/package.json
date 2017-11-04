@@ -14,8 +14,6 @@
         "position": "mouse",
         "min_width": 400,
         "min_height": 200,
-        "max_width": 1366,
-        "max_height": 768,
         "fullscreen":true,
         "Kiosk":false
     },
