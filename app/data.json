@@ -1,0 +1,340 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "content": "Si un génie te proposait de réaliser 3 vœux, que demanderais-tu ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 1,
+            "content": "Listons les 5 choses qui te rendent si unique.",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 2,
+            "content": "Si tu étais un animal, tu serais… ? Pourquoi ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 3,
+            "content": "Quel est le meilleur moyen d’apprendre quelque chose ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 4,
+            "content": "Quel est ton meilleur souvenir dans l’assiette ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 5,
+            "content": "Listons les petits bonheurs de la rentrée.",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 6,
+            "content": "Si tu devais décrire ta chambre idéale ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 7,
+            "content": "Si tu pouvais changer le monde tu commencerais par quoi ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 8,
+            "content": "Si tu pouvais choisir les vacances idéales, ça serait quoi ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 9,
+            "content": "Cite une chose que tu regrettes d’avoir commencé sans la finir.",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 10,
+            "content": "Si tu devais te faire un compliment ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 11,
+            "content": "Quand un copain est triste, que fais-tu pour le rendre heureux ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 12,
+            "content": "C’est quoi le courage ? Tu es courageux(se) toi à la veille de la rentrée ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 13,
+            "content": "Est-ce que tu imagines parfois comment tu seras dans 10 ans ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 14,
+            "content": "Si tu te lançais un grand défi pendant les vacances, ça serait quoi ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 15,
+            "content": "Départ imminent en vacances sans tes parents, tu te sens comment ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 16,
+            "content": "Quels seraient les ingrédients du meilleur dessert du monde ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 17,
+            "content": "Que veux-tu absolument dire à ton (ta) meilleur(e) ami(e) avant les grandes vacances ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 18,
+            "content": "Est-ce que tu sais dire « non » à tes copains quand c’est nécessaire ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 19,
+            "content": "Est-ce toujours important de donner son avis ? Pourquoi ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 20,
+            "content": "Quelles sont les 3 qualités essentielles d’un bon doudou ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 21,
+            "content": "C’est quoi un enfant trop gâté ? Tu te sens concerné ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 22,
+            "content": "Si tu devais expliquer à des extra-terrestres qui tu es, tu dirais quoi ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 23,
+            "content": "Faisons la liste de 3 choses que nous voulons faire ensemble pendant les vacances.",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 24,
+            "content": "Quand t’es-tu senti(e) vraiment fier(e) de toi la dernière fois ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 25,
+            "content": "C’est plus facile d’être une fille ou un garçon selon toi ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 26,
+            "content": "Cite-moi la chose la plus folle qui te soit arrivée aujourd’hui.",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 27,
+            "content": "Te souviens-tu de ton plus gros fou rire ? Raconte-moi…",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 28,
+            "content": "Hier on commémorait la fin de la 2nde Guerre mondiale. C’est important de se souvenir de l’histoire ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 29,
+            "content": "Est-ce que tu as déjà entendu une idée vraiment géniale ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 30,
+            "content": "Imaginons ensemble une surprise pour quelqu’un qu’on aime.",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 31,
+            "content": "J-4 avant les vacances ! Les attends-tu avec impatience ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 32,
+            "content": "Quel est le lieu que tu préfères sur Terre ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 33,
+            "content": "Si tu gagnais 100 000€ au loto et que tu devais les utiliser pour aider les autres, que ferais-tu ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 34,
+            "content": "Si on avait une machine à remonter le temps, on irait où ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 35,
+            "content": "Comment montres-tu aux gens que tu les aimes ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 36,
+            "content": "Comment te sens-tu quand quelqu’un se moque de toi ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 37,
+            "content": "As-tu parfois l’impression que les parents ne sont pas logiques ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 38,
+            "content": "Le pays qui te fait le plus rêver ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 39,
+            "content": "T’es-tu déjà félicité d’avoir été persévérant ? Quand et pourquoi ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 40,
+            "content": "Tu préfères les jours de pluie ou de soleil ? Pourquoi ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 41,
+            "content": "Bientôt les poissons d’avril, sais-tu te moquer de toi-même ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 42,
+            "content": "Si tu pouvais changer de prénom, tu choisirais quoi ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 43,
+            "content": "Comment prouver à quelqu’un qu’on l’aime ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 44,
+            "content": "C’est quoi une bonne résolution ? Tu vas en prendre cette année ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 45,
+            "content": "Pour résumer, ta journée a été plutôt : géniale, pas mal, pas terrible, pourquoi ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 46,
+            "content": "De quoi voudrais-tu rêver cette nuit ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 47,
+            "content": "Hier c’était la Saint Valentin, c’est quoi être amoureux pour toi ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 48,
+            "content": "Saurais-tu trouver les mots pour rassurer un copain qui a peur ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 49,
+            "content": "A quoi ça sert les vacances ? Tu as l’impression d’en profiter vraiment ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 50,
+            "content": "Si tu pouvais choisir un super pouvoir, ça serait lequel ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 51,
+            "content": "Si on devait inventer une tradition familiale ça serait… ?",
+            "color": "red",
+            "tags":[]
+        },
+        {
+            "id": 52,
+            "content": "Si tu es triste, qu’est ce qui te rend à nouveau heureux à tous les coups ?",
+            "color": "blue",
+            "tags":[]
+        },
+        {
+            "id": 53,
+            "content": "Sais-tu reconnaître ce qu’il y a d’unique chez les autres ?",
+            "color": "green",
+            "tags":[]
+        },
+        {
+            "id": 54,
+            "content": "Si on écrivait une lettre à ton meilleur ami… On lui dirait quoi ?",
+            "color": "yellow",
+            "tags":[]
+        },
+        {
+            "id": 55,
+            "content": "Demain c’est l’été, quelles sont tes saisons préférées ?",
+            "color": "red",
+            "tags":[]
+        }
+    ]
+}

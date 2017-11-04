@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+        <title>Borne CS</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="screen"></div>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/underscore.min.js"></script>
+        <script src="js/app.js"></script>
+        <script type="text/template" id="screensaver_template">
+            <div class="screensaver">
+                <div class="centered">
+                    <img src="img/logocsco.png"/>
+                    <h3>Bienvenue sur la borne e-administration du Centre social Projet - Maison de quartier du Faubourg de Béthune !</h3>
+                    <div class="btn cta open_session">
+                        Cliquez pour ouvrir une session
+                    </div>
+                </div>
+            </div>
+        </script>
+        <script type="text/template" id="dashboard_template">
+            <div class="dashboard">
+                <div class="close_session"><span class="icon"></span> Fermer la session</div>
+                <ul>
+                    <li id="site" data-navigate="webview" data-url="<%= app.urls.site %>">
+                        <div class="icon"></div><span class="label">CS Projet - Site Officiel</span>
+                    </li>
+                    <li id="caf" data-navigate="webview" data-url="<%= app.urls.caf %>">
+                        <div class="icon"></div><span class="label">CAF Allocations Familliales</span>
+                    </li>
+                    <li id="ameli" data-navigate="webview" data-url="<%= app.urls.ameli %>">
+                        <div class="icon"></div><span class="label">AMELI l'assurance maladie</span>
+                    </li>
+                    <li id="impots" data-navigate="webview" data-url="<%= app.urls.impots %>">
+                        <div class="icon"></div><span class="label">Impôts - gérer ses impîts</span>
+                    </li>
+                    <li id="poleemploi" data-navigate="webview" data-url="<%= app.urls.polemploi %>">
+                        <div class="icon"></div><span class="label">Pôle emploi</span>
+                    </li>
+                    <li id="lille" data-navigate="webview" data-url="<%= app.urls.lille %>">
+                        <div class="icon"></div><span class="label">Lille - Site Officiel</span>
+                    </li>
+                    <li id="cv" data-navigate="webview" data-url="<%= app.urls.cv %>">
+                        <div class="icon"></div><span class="label">CV - Numériser mon C.V</span>
+                    </li>
+                    <li id="prefecture" data-navigate="webview" data-url="<%= app.urls.cv %>">
+                        <div class="icon"></div><span class="label">Préfecture du Nord</span>
+                    </li>
+                    <li id="retraite" data-navigate="webview" data-url="<%= app.urls.retraite %>">
+                        <div class="icon"></div><span class="label">Assurance Retraite</span>
+                    </li>
+                </ul>
+            </div>
+        </script>
+        <script type="text/template" id="menu_template">
+            <div class="menu">
+                <ul>
+                    <li>CS Projet - Site Officiel</li>
+                    <li>CAF Allocations Familliales</li>
+                    <li>AMELI l'assurance maladie</li>
+                    <li>Impôts - gérer ses impîts</li>
+                    <li>Pôle emploi</li>
+                    <li>Lille - Site Officiel</li>
+                    <li>CV - Numériser mon C.V</li>
+                    <li>Préfecture du Nord</li>
+                    <li>Assurance Retraite</li>
+                </ul>
+            </div>
+        </script>
+        <script type="text/template" id="webview_template">
+            <div class="webview">
+                <div class="menu">
+                    <div class="print_button"></div>
+                    <div class="close_button"></div>
+                </div>
+                <iframe class="webview" src="<%= url %>"></iframe>
+            </div>
+        </script>
+    </body>
+</html>
