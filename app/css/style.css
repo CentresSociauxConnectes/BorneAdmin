@@ -99,6 +99,7 @@ html, body{
 .dashboard ul li .label{
     text-align: left;
     font-weight: 200;
+    padding-top:50px;
 }
 .dashboard ul li .icon{
     width:30%;
