@@ -26,34 +26,34 @@
         </script>
         <script type="text/template" id="dashboard_template">
             <div class="dashboard">
-                <div class="close_session"><span class="icon"></span> Fermer la session</div>
+                <div class="close_session"><div class="icon"></div> Fermer la session</div>
                 <ul>
                     <li id="site" data-navigate="webview" data-url="<%= app.urls.site %>">
-                        <div class="icon"></div><span class="label">CS Projet - Site Officiel</span>
+                        <div class="icon"></div><div class="label">CS Projet<br/><span>Site Officiel</span></div>
                     </li>
                     <li id="caf" data-navigate="webview" data-url="<%= app.urls.caf %>">
-                        <div class="icon"></div><span class="label">CAF Allocations Familliales</span>
+                        <div class="icon"></div><div class="label">CAF<br/><span>Allocations Familliales</span></div>
                     </li>
                     <li id="ameli" data-navigate="webview" data-url="<%= app.urls.ameli %>">
-                        <div class="icon"></div><span class="label">AMELI l'assurance maladie</span>
+                        <div class="icon"></div><div class="label">AMELI<br/><span>l'assurance maladie</span></div>
                     </li>
                     <li id="impots" data-navigate="webview" data-url="<%= app.urls.impots %>">
-                        <div class="icon"></div><span class="label">Impôts - gérer ses impîts</span>
+                        <div class="icon"></div><div class="label">Impôts<br/><span>gérer ses impôts</span></div>
                     </li>
                     <li id="poleemploi" data-navigate="webview" data-url="<%= app.urls.polemploi %>">
-                        <div class="icon"></div><span class="label">Pôle emploi</span>
+                        <div class="icon"></div><div class="label">Pôle emploi</div>
                     </li>
                     <li id="lille" data-navigate="webview" data-url="<%= app.urls.lille %>">
-                        <div class="icon"></div><span class="label">Lille - Site Officiel</span>
+                        <div class="icon"></div><div class="label">Lille<br/><span>Site Officiel</span></div>
                     </li>
                     <li id="cv" data-navigate="webview" data-url="<%= app.urls.cv %>">
-                        <div class="icon"></div><span class="label">CV - Numériser mon C.V</span>
+                        <div class="icon"></div><div class="label">CV<br/><span>Numériser mon C.V</span></div>
                     </li>
                     <li id="prefecture" data-navigate="webview" data-url="<%= app.urls.cv %>">
-                        <div class="icon"></div><span class="label">Préfecture du Nord</span>
+                        <div class="icon"></div><div class="label">Préfecture du Nord</div>
                     </li>
                     <li id="retraite" data-navigate="webview" data-url="<%= app.urls.retraite %>">
-                        <div class="icon"></div><span class="label">Assurance Retraite</span>
+                        <div class="icon"></div><div class="label">Assurance Retraite</div>
                     </li>
                 </ul>
             </div>
@@ -77,7 +77,7 @@
             <div class="webview">
                 <div class="menu">
                     <div class="print_button"></div>
-                    <div class="close_button"></div>
+                    <div class="close_button"><div class="icon"></div>Retour au dashboard</div>
                 </div>
                 <iframe class="webview" src="<%= url %>"></iframe>
             </div>

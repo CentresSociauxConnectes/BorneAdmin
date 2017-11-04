@@ -16,11 +16,10 @@ var app = {
             "dashboard" : _.template($('#dashboard_template').html()),
             "menu" : _.template($('#menu_template').html()),
             "webview" : _.template($('#webview_template').html())
-        };
+        }
         this.navigate("screensaver", {});
     },
     navigate : function(page, datas){
-        console.log(page);
         $('.app .screen').html('');
         $('.app .screen').append(this.temps[page](datas)); 
         if(typeof this[page] !== "undefined"){
@@ -45,6 +44,7 @@ var app = {
         $('.close_button').off('click').on('click', $.proxy(function(){
             this.navigate('dashboard', {});
         },this));
+        $('iframe').css({"height":window.innderHeight-50+"px", "margin-top":"50px"});
     },
     setListeners : function(){
         var self = this,
